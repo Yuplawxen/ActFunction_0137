@@ -13,3 +13,17 @@ void input() {
     cin >> l;
 }
 
+int luasPersegi() {
+    return p * l;
+}
+
+void output() {
+    cout << "Hasilnya = " << luasPersegi() << endl;
+    cout << "terima kasih" << endl;
+}
+
+int main() { // mulai
+    input();
+    output();
+    return 0;
+} // selesai
