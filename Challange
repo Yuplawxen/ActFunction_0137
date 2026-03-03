@@ -10,3 +10,11 @@ void input(){
 }
 float luas (float R){
     return 3.14159 * R * R; 
+}
+void output (){
+    cout << " Luas lingkaran = " << luas(R) ;
+}
+int main(){
+    input();
+    output();
+}
